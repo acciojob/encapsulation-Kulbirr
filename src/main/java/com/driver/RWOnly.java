@@ -9,5 +9,4 @@ public class RWOnly {
     public String getter(){
         return name;
     }
-
 }
