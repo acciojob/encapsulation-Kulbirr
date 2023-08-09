@@ -9,10 +9,10 @@ public class TestCases {
         RWOnly obj = new RWOnly();
 
         // Use setter to set the name
-        obj.setter("John");
+        obj.setName("John");
 
         // Use getter to get the name
-        String name = obj.getter();
+        String name = obj.getName();
         System.out.println("Name: " + name);
     }
 }

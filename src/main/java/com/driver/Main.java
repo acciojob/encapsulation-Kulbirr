@@ -9,7 +9,7 @@ public class Main {
 //        java: name has private access in com.driver.RWOnly
 //        returns this error because name has private access modifier
 
-        r.setter("Kulbir");
-        System.out.println(r.getter());
+        r.setName("Kulbir");
+        System.out.println(r.getName());
     }
 }
